@@ -22,7 +22,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 @Entity
-@Table(name = "user", indexes =  @Index(columnList = "email,firstName,lastName"))
+@Table(name = "person", indexes =  @Index(columnList = "email,firstName"))
 @Getter @Setter
 @NoArgsConstructor
 
